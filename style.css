@@ -41,7 +41,7 @@ header{
     border-bottom: 3px solid gray;
 }
 
-main section{
+main #section1{
     display: flex;
     justify-content: space-between;
 }
@@ -58,6 +58,8 @@ color: #316EB5;
     color: #303030;
     margin-top: 2rem;
     padding-bottom: 5%;
+    font-size: 22px;
+
 }
 .main-text a{
     
@@ -68,6 +70,37 @@ color: #316EB5;
     
 }
 
+#section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2 a{
+    background: #316EB5;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#section2 p{
+    font-size: 100%;
+    color: #303030;
+    padding-bottom: 5%;
+    font-size: 22px;
+    
+}
+
+#section2 img{
+    width: 500px;
+    padding-bottom: 20%;
+    margin-left: 20%;
+}
+
+.text2{
+    margin-left: 15%;
+}
+
 footer{
     background: #316EB5;
 }
@@ -75,12 +108,11 @@ footer{
 .navigation2{
     display: flex;
     align-items: center;
-    
 }
 
-.section2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+.copy{
+    text-align: center;
+    color: #303030;
+    padding-bottom: 5%;
 
+}
